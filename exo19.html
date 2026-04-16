@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Funny Social</title>
+  </head>
+  <style>
+    p {
+      font-family: Arial;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      align-items: center;
+      column-gap: 20px;
+    }
+    .friends-rows {
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+      width: 100%;
+    }
+
+    .hamster-cute {
+      width: 200px;
+      height: 200px;
+    }
+    .name {
+      font-size: 18px;
+      margin-left: 8px;
+      margin-bottom: 5px;
+      font-weight: 700;
+    }
+    .friend {
+      margin-bottom: 12px;
+      margin-left: 8px;
+      color: lightslategray;
+    }
+    .add-button {
+      font-size: 16px;
+      margin-left: 8px;
+      margin-bottom: 10px;
+      background-color: rgb(81, 117, 224);
+      color: white;
+      border: none;
+      border-radius: 3px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <div class="grid">
+      <div class="friends-rows">
+        <div class="ensemble">
+          <img class="hamster-cute" src="hamster-cute.png" alt="cute hamster" />
+          <p class="name">Oliver</p>
+          <p class="friend">2 mutual friends</p>
+          <button class="add-button">Add Friend</button>
+        </div>
+      </div>
+      <div class="friends-rows">
+        <div class="ensemble">
+          <img class="hamster-cute" src="cat-cute.jpg" alt="cut cat" />
+          <p class="name">Pascal</p>
+          <p class="friend">3 mutual friends</p>
+          <button class="add-button">Add Friend</button>
+        </div>
+      </div>
+
+      <div class="friends-rows">
+        <div class="ensemble">
+          <img class="hamster-cute" src="cockie-dog.jpg" alt="funny dog" />
+          <p class="name">Renée</p>
+          <p class="friend">4 mutual friends</p>
+          <button class="add-button">Add Friend</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

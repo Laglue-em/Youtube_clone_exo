@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nested flexbox 2</title>
+  </head>
+  <style>
+    .flexbox {
+      display: flex;
+      flex-direction: row;
+    }
+    .pink-column {
+      background-color: lightpink;
+      width: 100px;
+      height: 80px;
+    }
+    .blue-column {
+      background-color: lightblue;
+      width: 200px;
+      height: 80px;
+    }
+    .row2 {
+      display: flex;
+      justify-content: space-between;
+    }
+    .row2item {
+      background-color: black;
+      color: white;
+    }
+  </style>
+  <body>
+    <div class="flexbox">
+      <div class="pink-column"></div>
+      <div class="blue-column">
+        <div>row1</div>
+        <div class="row2">
+          <div class="row2item">row2</div>
+          <div class="row2item">row2</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

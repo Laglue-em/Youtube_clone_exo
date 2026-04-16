@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Fixed exo3</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      height: 3000px;
+    }
+    .sidebar {
+      background-color: green;
+      color: white;
+      position: fixed;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 100px;
+    }
+
+    .overlay {
+      display: flex;
+      justify-content: center;
+      position: fixed;
+      right: 0;
+      left: 0;
+      bottom: 0px;
+      top: 0px;
+      background-color: rgba(0, 0, 0, 0.8);
+      align-items: center;
+    }
+    .modal-model {
+      background-color: white;
+      width: 300px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-radius: 5px;
+    }
+
+    .titre {
+      font-weight: bold;
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+    .bouton-close {
+      font-size: 15px;
+      padding-left: 5px;
+      padding-right: 5px;
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <div class="sidebar">right sidebar</div>
+
+    <div class="overlay">
+      <div class="modal-model">
+        <p class="titre">Modal Title</p>
+        <p class="sous-titre">This is a modal</p>
+        <button class="bouton-close">Close</button>
+      </div>
+    </div>
+  </body>
+</html>

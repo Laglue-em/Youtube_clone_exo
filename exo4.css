@@ -1,0 +1,19 @@
+    p {
+      font-family: Arial;
+      text-align: center;
+    }
+    .phrase-1 {
+      font-size: 25px;
+      font-weight: 900;
+      margin-bottom: 35px;
+    }
+    .phrase-2 {
+      margin-bottom: 35px;
+    }
+    .phrase-3 {
+      color: rgb(122, 159, 229);
+      cursor: pointer;
+    }
+    .phrase-3:hover {
+      text-decoration: underline;
+    }

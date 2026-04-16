@@ -1,0 +1,25 @@
+ p {
+      font-family: Arial;
+    }
+    .first-text {
+      font-size: 35px;
+      margin-bottom: 0;
+    }
+    .usd {
+      color: grey;
+      font-size: 20px;
+    }
+    .second-text {
+      color: rgb(32, 149, 32);
+      font-size: 18px;
+      margin-top: 2px;
+      margin-bottom: 5px;
+    }
+    .last-text {
+      color: grey;
+      font-size: 18px;
+      margin-top: 5px;
+    }
+    .orange-text {
+      color: rgb(255, 81, 0);
+    }
